@@ -50,11 +50,13 @@ h1 {
     font-weight:bolder;
     color:#F9FAF8;
 }
+
 .first-p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #e5e7eb;the
 }
-button{
+
+.firstb {
     margin-right: 600px;
     background-color: #3882f6;
     color: white;
@@ -92,9 +94,49 @@ button{
     align-items: center;
 }
 
-.sign {
+.paragraph {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:75px 400px;
+    background-color: #e5e7eb;
 }
+.quote {
+    font-size: 36px;
+    font-style: italic;
+color: #1f2937;
+
+}
+.sun {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+color: #1f2937;
+text-align: end;
+}
+
+
+.inside {
+    background-color: #3882f6;
+    display:  flex;
+    border-radius: 7px;
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 150px;
+    
+}
+
+
+.lastb {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 10px;
+    border-color: white;
+}
+
 
 .footer {
     display: flex;
